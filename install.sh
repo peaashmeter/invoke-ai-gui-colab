@@ -14,7 +14,7 @@ cd "$(dirname "${BASH_SOURCE[0]}")"
 echo "Заходит как-то улитка в бар..."
 
 # https://mamba.readthedocs.io/en/latest/installation.html
-OS_ARCH="aarch64"; fi
+OS_ARCH="aarch64";
 
 # config
 export MAMBA_ROOT_PREFIX="$(pwd)/installer_files/mamba"
