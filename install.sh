@@ -19,7 +19,7 @@ OS_ARCH="aarch64";
 # config
 export MAMBA_ROOT_PREFIX="$(pwd)/installer_files/mamba"
 INSTALL_ENV_DIR="$(pwd)/installer_files/env"
-MICROMAMBA_DOWNLOAD_URL="https://micro.mamba.pm/api/micromamba/${OS_NAME}-${OS_ARCH}/latest"
+MICROMAMBA_DOWNLOAD_URL="https://micro.mamba.pm/api/micromamba/linux-${OS_ARCH}/latest"
 REPO_URL="https://github.com/invoke-ai/InvokeAI.git"
 umamba_exists="F"
 
