@@ -13,13 +13,10 @@ cd "$(dirname "${BASH_SOURCE[0]}")"
 
 echo "Заходит как-то улитка в бар..."
 
-# https://mamba.readthedocs.io/en/latest/installation.html
-OS_ARCH="aarch64";
-
 # config
 export MAMBA_ROOT_PREFIX="$(pwd)/installer_files/mamba"
 INSTALL_ENV_DIR="$(pwd)/installer_files/env"
-MICROMAMBA_DOWNLOAD_URL="https://micro.mamba.pm/api/micromamba/linux-${OS_ARCH}/latest"
+MICROMAMBA_DOWNLOAD_URL="https://micro.mamba.pm/api/micromamba/linux-64/latest"
 REPO_URL="https://github.com/invoke-ai/InvokeAI.git"
 umamba_exists="F"
 
