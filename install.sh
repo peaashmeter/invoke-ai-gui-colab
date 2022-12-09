@@ -63,13 +63,13 @@ fi
 if [ -e "$INSTALL_ENV_DIR" ]; then export PATH="$INSTALL_ENV_DIR/bin:$PATH"; fi
 
 # get the repo (and load into the current directory)
-if [ ! -e ".git" ]; then
-    git init
-    git config --local init.defaultBranch main
-    git remote add origin "$REPO_URL"
-    git fetch
-    git checkout origin/main -ft
-fi
+
+git init
+git config --local init.defaultBranch main
+git remote add origin "$REPO_URL"
+git fetch
+git checkout origin/main -ft
+
 
 # create the environment
 CONDA_BASEPATH=$(conda info --base)
