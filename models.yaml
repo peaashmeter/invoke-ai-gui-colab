@@ -18,4 +18,5 @@ Anything_v3:
   config: configs/stable-diffusion/v1-inference.yaml
   width: 512
   height: 512
+  vae: models/ldm/stable-diffusion-v1/vae-ft-mse-840000-ema-pruned.ckpt
   default: true
