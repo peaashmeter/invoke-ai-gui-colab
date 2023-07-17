@@ -6,12 +6,12 @@
 # and the width and height of the images it
 # was trained on.
 Anything_v5_vaefixed:
-  weights: models/ldm/stable-diffusion-v1/Anything-V5.safetensors
+  weights: models/ldm/stable-diffusion-v1/Anything-V5.ckpt
   description: Cool anime model
   config: configs/stable-diffusion/v1-inference.yaml
   width: 512
   height: 512
-  vae: models/ldm/stable-diffusion-v1/Anything-V5-vae.safetensors
+  vae: models/ldm/stable-diffusion-v1/Anything-V5.ckpt
   default: true
 Anything_v5_default:
   weights: models/ldm/stable-diffusion-v1/Anything-V5.safetensors
